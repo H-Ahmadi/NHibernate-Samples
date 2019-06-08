@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance.TPH", "Inherita
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance.TPT", "Inheritance.TPT\Inheritance.TPT.csproj", "{9C2DF17A-525B-434C-8523-6E1A0EC6EEED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{9DE7B1A1-1B94-45A0-86E1-D4EA14AB6B73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{9C2DF17A-525B-434C-8523-6E1A0EC6EEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C2DF17A-525B-434C-8523-6E1A0EC6EEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C2DF17A-525B-434C-8523-6E1A0EC6EEED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE7B1A1-1B94-45A0-86E1-D4EA14AB6B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE7B1A1-1B94-45A0-86E1-D4EA14AB6B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE7B1A1-1B94-45A0-86E1-D4EA14AB6B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE7B1A1-1B94-45A0-86E1-D4EA14AB6B73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

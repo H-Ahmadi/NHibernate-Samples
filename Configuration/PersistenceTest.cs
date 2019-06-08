@@ -11,11 +11,10 @@ namespace Configuration
 
         protected PersistenceTest()
         {
-            var x = Assembly.GetCallingAssembly();
             SessionFactory = new SessionFactoryBuilder()
                 .SetSessionNameAs("Test")
                 .WithMappingsInAssembly(Assembly.GetCallingAssembly())
-                .UsingConnectionString("data source=.;Initial Catalog=NHibernateSampleDB;Integrated Security=true")
+                .UsingConnectionString("data source=localhost;Initial Catalog=NHibernateSampleDB;UID=sa;Password=123QWE!@#")
                 .Build();
 
             _scope = new TransactionScope();
